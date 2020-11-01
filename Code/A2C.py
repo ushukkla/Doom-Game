@@ -62,7 +62,7 @@ if __name__ == "__main__":
         s_t = np.stack(([x_t]*4), axis=2)
         s_t = np.expand_dims(s_t, axis=0)
 
-        life = 0 
+        life = 0 #starting the game initially with 0 life, and gradually this list changes and we can see while the bot dies
 
         while not game.is_episode_finished():
 
